@@ -1,0 +1,20 @@
+@mixin alignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@mixin  alignment-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin df_f-d_c{
+  display: flex;
+  flex-direction: column;
+}
+@mixin df-f-w_w{
+  display: flex;
+  flex-wrap: wrap;
+}
